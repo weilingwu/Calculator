@@ -1,0 +1,21 @@
+.button_pannel{
+  background-color: #858694;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+}
+.button_pannel > div {
+  width: 100%;
+}
+.button_pannel .result{
+  position: relative;
+  font-size: 65px;
+  color: black;
+  background: #0d71bb;
+}
+.button_pannel button{
+  width: 25%;
+  font-size: 65px;
+  background: #0ac250;
+}
